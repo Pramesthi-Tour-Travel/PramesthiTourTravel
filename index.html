@@ -100,15 +100,14 @@ body.dark a:hover { color: #facc15; }
 <p>📧 <a href="mailto:walidsatriaal@gmail.com" class="underline hover:text-yellow-300">walidsatriaal@gmail.com</a></p>
 <p>📞 <a href="https://wa.me/6282116404553" class="underline hover:text-yellow-300">0821-1640-4553</a></p>
 <div class="flex justify-center space-x-4 mt-4">
-<a href="https://www.instagram.com/username" target="_blank" class="hover:text-yellow-300">📸 Instagram</a>
+<a href="https://www.instagram.com/yeni_ros" target="_blank" class="hover:text-yellow-300">📸 Instagram</a>
 <a href="https://www.facebook.com/username" target="_blank" class="hover:text-yellow-300">📘 Facebook</a>
 <a href="https://www.youtube.com/@username" target="_blank" class="hover:text-yellow-300">▶️ YouTube</a>
 <a href="https://www.tiktok.com/@username" target="_blank" class="hover:text-yellow-300">🎵 TikTok</a>
 </div>
 <div class="flex justify-center space-x-4 mt-3">
-<a href="https://m.klikbca.com" target="_blank" class="hover:text-yellow-300">🏦 BCA</a>
-<a href="https://www.bri.co.id" target="_blank" class="hover:text-yellow-300">🏦 BRI</a>
-<a href="https://www.bni.co.id" target="_blank" class="hover:text-yellow-300">🏦 BNI</a>
+<a href="https://m.klikbca.com" target="_blank" class="hover:text-yellow-300">🏦 BCA - Yeni Rosnawati 1371392926
+</a>
 </div>
 <p class="mt-4 text-sm">© 2025 Pramesthi Tour & Travel | Liburan Lebih Mudah Bersama Kami 🌺</p>
 </footer>
@@ -116,14 +115,14 @@ body.dark a:hover { color: #facc15; }
 <script>
 // Paket Wisata
 const packages = [
-{name:"Bali Paradise Getaway", location:"Bali, Indonesia", price:"Rp 4.500.000", duration:"4 Hari 3 Malam", image:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e", facilities:["Hotel bintang 4","Makan 3x sehari","Tour Tanah Lot, Uluwatu, Nusa Penida"]},
-{name:"Explore Lombok Island", location:"Lombok, NTB", price:"Rp 3.800.000", duration:"3 Hari 2 Malam", image:"https://images.unsplash.com/photo-1500375592092-40eb2168fd21", facilities:["Hotel bintang 3","Tour Gili Trawangan & Pantai Kuta"]},
-{name:"Heritage Yogyakarta Tour", location:"Yogyakarta, Indonesia", price:"Rp 2.900.000", duration:"3 Hari 2 Malam", image:"https://images.unsplash.com/photo-1518684079-3c830dcef090", facilities:["Candi Borobudur, Prambanan, Malioboro","Hotel bintang 3"]}
+{name:"Bali Paradise Getaway", location:"Bali, Indonesia", price:"Rp -", duration:"4 Hari 3 Malam", image:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e", facilities:["Hotel bintang 4","Makan 3x sehari","Tour Tanah Lot, Uluwatu, Nusa Penida"]},
+{name:"Explore Lombok Island", location:"Lombok, NTB", price:"Rp -", duration:"3 Hari 2 Malam", image:"https://images.unsplash.com/photo-1500375592092-40eb2168fd21", facilities:["Hotel bintang 3","Tour Gili Trawangan & Pantai Kuta"]},
+{name:"Heritage Yogyakarta Tour", location:"Yogyakarta, Indonesia", price:"Rp -", duration:"3 Hari 2 Malam", image:"https://images.unsplash.com/photo-1518684079-3c830dcef090", facilities:["Candi Borobudur, Prambanan, Malioboro","Hotel bintang 3"]}
 ];
 
 // Destinasi
 const destinasi = [
-{negara:"Indonesia", wilayah:"Jawa Barat", kota:"Bandung", area:"Lembang", daftar:["Farmhouse Lembang","Dusun Bambu","Floating Market","Grafika Cikole"]},
+{negara:"Indonesia", wilayah:"Jawa Barat", kota:"Bandung", area:"Lembang", daftar:["Farmhouse Lembang","The Great Asia Africa","Dusun Bambu","Floating Market","Grafika Cikole"]},
 {negara:"Indonesia", wilayah:"Jawa Barat", kota:"Bandung", area:"Bandung Barat", daftar:["Gunung Tangkuban Perahu","Situ Patenggang","Kawah Putih"]},
 {negara:"Indonesia", wilayah:"DKI Jakarta", kota:"Jakarta", area:"Jakarta Selatan", daftar:["Kebun Binatang Ragunan","Setu Babakan","Museum Layang-Layang"]},
 {negara:"Thailand", wilayah:"Bangkok", kota:"Bangkok", area:"Rattanakosin", daftar:["Grand Palace","Wat Pho","Khao San Road"]},
@@ -175,9 +174,9 @@ const tanggal=document.getElementById("tanggal").value;
 const peserta=document.getElementById("peserta").value;
 const paket=document.getElementById("paket").value;
 const message=`Halo Pramesthi Tour & Travel! Saya ingin memesan paket:\n🌺 *${paket}*\n👤 Nama: ${nama}\n📱 WhatsApp: ${whatsapp}\n📅 Tanggal: ${tanggal}\n👥 Peserta: ${peserta}`;
-const phoneNumber="6282116404553";
+const phoneNumber="6281910322400";
 window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,"_blank");
-window.location.href=`mailto:walidsatriaal@gmail.com?subject=Pemesanan Paket - ${paket}&body=${encodeURIComponent(message)}`;
+window.location.href=`mailto:pramesthitourtravel@gmail.com?subject=Pemesanan Paket - ${paket}&body=${encodeURIComponent(message)}`;
 }
 
 // FAVORIT
